@@ -8,7 +8,7 @@ let dashesTopLength = n;
 let result = '';
 
 if(n > 2 && n < 10000){
-
+n % 2 ==0;
 for (let row = n; row >= 0; row -= 1) {
     for (let col = row; col > 0; col -= 1) {
         result += '-';
